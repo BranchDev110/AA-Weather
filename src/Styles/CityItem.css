@@ -1,0 +1,14 @@
+.city__item {
+  margin: 50px;
+}
+.city__item p {
+  font-size: 1.825rem;
+}
+.city__item .city__item--active {
+  color: #5fb0e8;
+  font-weight: bold;
+}
+.city__item .city__item--normal {
+  color: #333339;
+}
+/*# sourceMappingURL=CityItem.css.map */

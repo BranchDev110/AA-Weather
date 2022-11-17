@@ -1,6 +1,6 @@
 {
-  "watchFolder": "src/",
-  "outputFolder": "src/",
+  "watchFolder": "src/Styles",
+  "outputFolder": "src/Styles",
   "sourceMap": true,
   "runOnce": false,
   "enableJs": true
