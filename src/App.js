@@ -15,13 +15,15 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        {this.state.cities.map((item) => (
-          <CityItem
-            key={item.id}
-            name={item.name}
-            isActive={item.id === this.state.activeId}
-          />
-        ))}
+        <div className="city__select">
+          {this.state.cities.map((item) => (
+            <CityItem
+              key={item.id}
+              name={item.name}
+              isActive={item.id === this.state.activeId}
+            />
+          ))}
+        </div>
       </div>
     );
   }

@@ -2,8 +2,9 @@
 
 #root{
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 .container{
@@ -11,4 +12,8 @@
   display: flex;
   justify-content: center;
   background-color: @backgroundColor;
+
+  .city__select{
+    display: flex;
+  }
 }

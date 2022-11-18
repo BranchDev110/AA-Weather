@@ -1,18 +1,34 @@
 @active_color: #5fb0e8;
 @normal_color: #333339;
 
-.city__item{
-  margin: 50px;
-  p{
+.city__item {
+  p {
     font-size: 1.825rem;
   }
 
-  .city__item--active{
+  .city__item--active {
     color: @active_color;
     font-weight: bold;
   }
-  
-  .city__item--normal{
+
+  .city__item--normal {
     color: @normal_color;
+  }
+}
+
+.city__item + .city__item {
+  margin-left: 100px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 992px) {
+  .city__item + .city__item {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles for some mobile devices */
+  .city__item + .city__item {
+    margin-left: 30px;
   }
 }
